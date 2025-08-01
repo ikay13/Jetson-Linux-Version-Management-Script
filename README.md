@@ -1,2 +1,4 @@
 # Jetson-Linux-Version-Management-Script
 For anyone with Jetson-native HW, Jetson SW via NVIDIA-native HW, or with an x86_64 computer: I made this bash tool for managing Jetson Linux Kernel Versioning with the goal of streamlining the process of updating the Jetson’s kernel or entire Linux version, which I hope can provide both clarity for newcomers and flexibility for experienced users.
+
+The Bash Shell script is divided into sections for clarity. You can save this as, for example, jetson_kernel_manager.sh, and run it on your Jetson device or Linux host. Remember to make it executable (chmod +x jetson_kernel_manager.sh). The script should be run with administrative privileges (either as root or with sudo when it performs installation steps). Please be aware that this script is intended for educational purposes and may not work on all systems. Always back up your data before running scripts that modify system files or configurations.
